@@ -5,9 +5,7 @@ import SearchBar from './components/search_bar';
 
 const API_KEY = 'AIzaSyCqMOiqcsoA-TFKSWwEWbxBQnTaGt2-m73';
 
-// Create a new component
-// This component should produce some HTML
-
+// function-based component (no states)
 const App = () => {
     return (
         <div>
@@ -15,8 +13,5 @@ const App = () => {
         </div>
     )
 };
-
-// Take this component's generated HTML and put it
-// on the page (in the DOM)
 
 ReactDOM.render(<App />, document.querySelector('.container'));
