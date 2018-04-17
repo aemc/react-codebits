@@ -1,6 +1,6 @@
 # ReduxSimpleStarter
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Personal Project following Stephen Grider's React/Redux course with slight changes.
 
 ### Getting Started
 

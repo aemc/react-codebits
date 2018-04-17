@@ -1,22 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import SearchBar from './components/search_bar';
+import App from './components/app';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import rootReducers from './reducers';
 
-const API_KEY = 'AIzaSyCqMOiqcsoA-TFKSWwEWbxBQnTaGt2-m73';
+const store = createStore(rootReducers);
+console.log(store.getState());
+store.subscribe(() => console.log('store',store.getState()));
 
-// Create a new component
-// This component should produce some HTML
-
-const App = () => {
-    return (
-        <div>
-            <SearchBar/>
-        </div>
-    )
-};
-
-// Take this component's generated HTML and put it
-// on the page (in the DOM)
-
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(
+    <Provider store={store}>
+        <App/>
+    </Provider>, document.querySelector('.container'));
