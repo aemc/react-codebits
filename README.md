@@ -1,5 +1,7 @@
 # ReduxSimpleStarter
 
+Personal Project following Stephen Grider's React/Redux course with slight changes.
+
 ### Getting Started
 
 There are two methods for getting started with this repo.
