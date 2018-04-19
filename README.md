@@ -2,6 +2,8 @@
 
 Personal Project following Stephen Grider's React/Redux course with slight changes.
 
+The branches other than master indicate the modules I've finished so far.
+
 ### Getting Started
 
 There are two methods for getting started with this repo.
