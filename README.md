@@ -6,22 +6,20 @@ The branches other than master indicate the modules I've finished so far.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
+Branch:
+* master: current progress
+* 01: React codebits
+* 02: React codebits
+* 03: React + redux codebits
+* 04: React + redux codebits
+* 05: Weather App with react + redux
 
 #### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
+> git clone https://github.com/aemc/react-codebits.git
+> cd react-codebits
 > npm install
 > npm start
 ```
